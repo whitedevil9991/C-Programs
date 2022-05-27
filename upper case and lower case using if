@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    char chh;
+    printf("enter an alphabet:");
+    scanf("%c",&chh);
+    if(chh>=65&&chh<=90)
+    {
+        printf("the entered alphabet is upper case");
+    }
+    if(chh>=97&&chh<=122)
+    {
+        printf("the entered alphabet is lower case");
+    }
+    else
+    {
+        printf("invalid input");
+    }
+    printf("\nend of the program");
+}

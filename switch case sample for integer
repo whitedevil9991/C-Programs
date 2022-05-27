@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("enter any number between 1 to 3:");
+    scanf("%d",&x);
+    switch(x)
+    {
+        case 1:printf("\none");
+        break;
+        case 2:printf("\ntwo");
+        break;
+        case 3:printf("\nthree");
+        break;
+        default:printf("\ninvalid number");
+    }
+    printf("\nend of the program");
+}

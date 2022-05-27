@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+    int sub1,sub2,sub3,sub4,sub5,total=500;
+    float pct,sum;
+    printf("enter your marks for sub1,sub2,sub3,sub4,sub5:");
+    scanf("%d%d%d%d%d",&sub1,&sub2,&sub3,&sub4,&sub5);
+    
+    sum=sub1+sub2+sub3+sub4+sub5;
+    pct=(sum/total)*100;
+    
+    if(pct<40)
+    {
+        printf("fail");
+    }
+    else if(pct>=40 && pct<=49)
+    {
+        printf("pass");
+    }
+    else if(pct>=50 && pct<=59)
+    {
+        printf("second pass");
+    }
+    else if(pct>=60 && pct<=74)
+    {
+        printf("first class");
+    }
+    else
+    {
+        printf("distinction");
+    }
+    
+    
+}

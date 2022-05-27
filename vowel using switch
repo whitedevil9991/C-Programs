@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    char alphabet;
+    printf("enter an alphabet:");
+    scanf("%c",&alphabet);
+    switch(alphabet)
+    {
+        case 'a':printf("\na is a vowel");
+        break;
+        case 'e':printf("\ne is a vowel");
+        break;
+        case 'i':printf("\ni is a vowel");
+        break;
+        case 'o':printf("\no is a vowel");
+        break;
+        case 'u':printf("\nu is a vowel");
+        break;
+        default :printf("\nthis is a consonant");
+    }
+    printf("\nend of the program");
+}

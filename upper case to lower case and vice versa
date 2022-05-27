@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    char chh;
+    printf("enter an alphabet:");
+    scanf("%c",&chh);
+    if(chh>=65&&chh<=90)
+    {
+       chh=(chh+32);
+       printf("%s",&chh);
+    }
+    else if(chh>=97&&chh<=122)
+    {
+        chh=(chh-32);
+        printf("%s",&chh);
+    }
+    else
+    {
+        printf("invalid input");
+    }
+    printf("\nend of the program");
+}
